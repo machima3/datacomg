@@ -5,11 +5,7 @@
   "scripts": {
     "start": "node bot.js"
   },
-  "keywords": [
-    "ciscospark",
-    "botkit",
-    "devnet"
-  ],
+  "keywords": ["ciscospark","botkit","devnet"],
   "author": "Stève Sfartz (Cisco DevNet) <stsfartz@cisco.com>",
   "license": "MIT",
   "dependencies": {

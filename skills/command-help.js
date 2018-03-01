@@ -8,7 +8,7 @@ module.exports = function (controller) {
         text += "\n- " + bot.enrichCommand(message, ".commons") + ": shows metadata about myself";
         text += "\n- " + bot.enrichCommand(message, "help") + ": spreads the word about my skills";
         text += "\n- " + bot.enrichCommand(message, "espacio") + ": copia el espacio";
-        text += "\n- " + bot.enrichCommand(message, "añadir") + ": añade un participante";
+        text += "\n- " + bot.enrichCommand(message, "add") + ": añade un participante";
         bot.reply(message, text);
     });
 }
